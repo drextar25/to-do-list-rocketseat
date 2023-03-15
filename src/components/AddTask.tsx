@@ -22,6 +22,9 @@ export function AddTask() {
         task.isComplete === true).length;
     
     const hasTasks = tasks.length !== 0;
+	
+    const isInputEmpty = newTask === '';
+
 
     function handleCreateNewTask(event: FormEvent) {
         event.preventDefault();
@@ -73,7 +76,8 @@ export function AddTask() {
                 />
                 <button
                     className={styles.inputButton}
-                    type='submit'
+                    type='submit';
+		    disabled={isInputEmpty}
                     onClick={handleCreateNewTask}
                     
                 >
