@@ -23,9 +23,13 @@
     }
 }
 
-.inputButton:hover {
+.inputButton:not(:disabled):hover {
     background-color: var(--blue);
     transition: 1s;
+}
+
+.inputButton:disabled{
+    cursor: not-allowed
 }
 
 .taskInput .input {
