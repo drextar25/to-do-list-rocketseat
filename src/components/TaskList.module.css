@@ -1,0 +1,161 @@
+.main {
+    display: block;
+    padding: 0.75rem;
+}
+
+.deleteButton {
+    background-color: transparent;
+    color: var(--gray-300);
+    border-radius: 4px;
+    border: 0;
+    transition: color 0.2s, background-color 0.2s;
+    height: 1.25rem;
+	width: 1.25rem;
+}
+
+.deleteButton:hover {
+    background-color: var(--gray-400);
+    color: var(--danger);
+}
+
+.round {
+	position: relative;
+}
+
+.round label {
+	height: 1.25rem;
+	width: 1.25rem;
+
+	position: absolute;
+	left: 0;
+	top: 0;
+
+	border-radius: 50%;
+	cursor: pointer;
+
+	transition: background-color 0.2s, border-color 0.2s;
+	background-color: transparent;
+	border: 2px solid var(--blue);
+}
+
+.round label:hover {
+	background-color: var(--gray-400);
+	border-color: var(--blue-dark);
+}
+
+.round input[type='checkbox']:checked + label {
+	background-color: var(--purple-dark);
+	border-color: var(--purple-dark);
+	opacity: 0.9;
+}
+
+.round input[type='checkbox']:checked + label:hover {
+	background-color: var(--purple);
+	border-color: var(--purple);
+	opacity: 0.9;
+}
+
+.round label:after {
+	height: 0.3rem;
+	width: 0.5rem;
+	transform: rotate(-45deg);
+
+	border: 2px solid var(--gray-100);
+	border-top: none;
+	border-right: none;
+	content: '';
+
+	position: absolute;
+	left: 0.1875rem;
+	top: 0.1875rem;
+	opacity: 0;
+}
+
+.round input[type='checkbox'] {
+	visibility: hidden;
+}
+
+.round input[type='checkbox']:checked + label:after {
+	opacity: 1;
+}
+
+.doneText {
+	color: var(--gray-300) !important;
+	text-decoration-line: line-through;
+}
+  
+.taskList{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: stretch;
+    line-height: 1.25rem;
+    border-radius: 8px;
+    gap: 0.75rem;
+    padding: 1rem;
+    height: 100%;
+    background-color: var(--gray-400);
+    box-shadow:  0px 2px 8px rgba(0, 0, 0, 0.06);;
+    max-width: 46rem;
+    min-height: 4.5rem;
+    margin: auto;
+}
+
+.task{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 46rem;
+    margin: auto;
+}
+
+
+
+.taskList p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    color: var(--gray-100);
+    text-align: left;
+    inline-size: 39.5rem;
+    padding-left: 0.5rem;
+    text-align: left;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .taskList{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .task{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem; 
+    width: 100%;
+    word-break: break-all;
+    
+    }
+}
+
+
+
+  
+  
+  
+  
+  
+  
+  
+ 
