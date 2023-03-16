@@ -66,6 +66,7 @@ export function AddTask() {
 
     return (
         <div className={styles.all}>
+		    
             <form className={styles.taskInput} >
                 <input
                     className={styles.input}
@@ -76,17 +77,17 @@ export function AddTask() {
                 />
                 <button
                     className={styles.inputButton}
-                    type='submit';
+                    type='submit'
 		    disabled={isInputEmpty}
                     onClick={handleCreateNewTask}
-                    
-                >
+                 >
 					Add
                     <PlusCircle
                         size={16}
                         weight='bold' />
                 </button>
             </form >
+		    
             <div className = {styles.taskAmount}>
                 <p
                     className={styles.taskCreated}>
