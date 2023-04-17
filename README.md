@@ -20,7 +20,7 @@
 
 ### Web:
 
-![to-do-list](https://user-images.githubusercontent.com/108102331/225452258-e39c51ed-01dd-4bbc-9b6b-b1c1de16c175.png) ![to-do-empty](https://user-images.githubusercontent.com/108102331/225452255-00fdcf35-835b-4cba-bd2f-99198c79d7bd.png)
+![to-do-empty](https://user-images.githubusercontent.com/108102331/225452255-00fdcf35-835b-4cba-bd2f-99198c79d7bd.png)
 
 ***
 
