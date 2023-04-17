@@ -18,12 +18,6 @@
 
 ### Deploy: https://to-do-list-rocketseat-chi.vercel.app/
 
-### Web:
-
-![to-do-empty](https://user-images.githubusercontent.com/108102331/225452255-00fdcf35-835b-4cba-bd2f-99198c79d7bd.png)
-
-***
-
-### Mobile:
-
-![to-do-list-mobile](https://user-images.githubusercontent.com/108102331/225452260-657a1793-4e32-4d99-8423-e1e5ee2d848e.png) ![to-do-empty-mobile](https://user-images.githubusercontent.com/108102331/225452256-b609f42c-3e86-4ae3-80f4-5075e7868c9d.png)
+![photo3](https://user-images.githubusercontent.com/108102331/232617452-5d82cb9e-20f9-465b-91e1-d3af8a34bda4.png)
+![photo2](https://user-images.githubusercontent.com/108102331/232617464-b3560c0d-6162-4d80-b078-c3f899d3061f.png)
+![photo1](https://user-images.githubusercontent.com/108102331/232617473-408dc6e9-76b7-4835-a5ce-5aa948ade709.png)
