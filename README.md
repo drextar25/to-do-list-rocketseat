@@ -16,7 +16,7 @@
 - Properties 
 - Componentization 
 
-### Deploy: https://to-do-list-rocketseat-l7z46hi3x-drextar25.vercel.app/
+### Deploy: https://to-do-list-rocketseat-chi.vercel.app/
 
 ### Web:
 
